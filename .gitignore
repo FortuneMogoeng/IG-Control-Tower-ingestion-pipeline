@@ -8,7 +8,13 @@
 !MERGE_GUIDE.md
 !WORK_PLAN.md
 !PATCHES.md
+!CLAUDE_HANDOVER.md
 !.gitignore
+
+# Handover and email drafts
+!JULY/
+!JULY/HANDOVER-13-July-2026.md
+!JULY/OOO-email-draft.md
 
 # Ingestion scripts (the new files)
 !scripts/
