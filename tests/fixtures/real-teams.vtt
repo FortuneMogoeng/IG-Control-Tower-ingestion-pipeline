@@ -1,0 +1,1019 @@
+WEBVTT
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/5-0
+00:00:03.463 --> 00:00:05.583
+<v Wei Bin Loo>Where is my skills? Nope.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/6-0
+00:00:07.743 --> 00:00:08.303
+<v Wei Bin Loo>Box.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/7-0
+00:00:09.503 --> 00:00:09.903
+<v Wei Bin Loo>Asian.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/8-0
+00:00:13.263 --> 00:00:13.423
+<v Wei Bin Loo>Yeah.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/9-0
+00:00:21.983 --> 00:00:23.983
+<v Wei Bin Loo>Cool, so.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/11-0
+00:00:24.783 --> 00:00:29.023
+<v Fortune Mogoeng>I'm sorry,
+I haven't had a chance to look at this.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/10-0
+00:00:24.863 --> 00:00:26.783
+<v Wei Bin Loo>I built a password showing.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/13-0
+00:00:28.983 --> 00:00:33.425
+<v Wei Bin Loo>No, no, it's fine, it's fine.
+So I built out the kind of like the first</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/13-1
+00:00:33.425 --> 00:00:38.423
+<v Wei Bin Loo>version of this, I'm going to test that.
+But mainly I'm thinking because you are</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/13-2
+00:00:38.423 --> 00:00:41.199
+<v Wei Bin Loo>busy with downing as well as the
+rebranding,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/13-3
+00:00:41.199 --> 00:00:45.703
+<v Wei Bin Loo>so I'm thinking if we can do something
+that's like less kind of coupled,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/13-4
+00:00:45.703 --> 00:00:49.343
+<v Wei Bin Loo>so like more decoupled,
+potentially be the most efficient.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/17-0
+00:00:49.823 --> 00:00:52.604
+<v Wei Bin Loo>So, actually,
+while discussing something outside of</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/17-1
+00:00:52.604 --> 00:00:56.562
+<v Wei Bin Loo>this implementation plan, anyway,
+so the problem that one of the problems</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/14-0
+00:00:55.743 --> 00:00:56.223
+<v Fortune Mogoeng>Mhm.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/17-2
+00:00:56.562 --> 00:00:59.878
+<v Wei Bin Loo>that we have is, obviously,
+so if you look at the first step,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/17-3
+00:00:59.878 --> 00:01:03.997
+<v Wei Bin Loo>this is ingest, right? So, basically,
+whatever meeting notes and any kind of</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/17-4
+00:01:03.997 --> 00:01:07.473
+<v Wei Bin Loo>documents that we have,
+we want to ingest it before we start all</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/15-0
+00:01:06.943 --> 00:01:07.503
+<v Fortune Mogoeng>Yes.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/17-5
+00:01:07.473 --> 00:01:08.543
+<v Wei Bin Loo>the following steps.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/19-0
+00:01:08.943 --> 00:01:15.237
+<v Wei Bin Loo>But the problem that we currently have is
+that the document is quite scattered</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/16-0
+00:01:09.983 --> 00:01:10.823
+<v Fortune Mogoeng>Being structured.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/19-1
+00:01:15.237 --> 00:01:19.140
+<v Wei Bin Loo>around.
+So we have like all the nodes on Notion,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/18-0
+00:01:16.223 --> 00:01:16.943
+<v Fortune Mogoeng>Short term.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/19-2
+00:01:19.140 --> 00:01:23.124
+<v Wei Bin Loo>for example,
+for downing all the nodes on Notion.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/19-3
+00:01:23.124 --> 00:01:28.063
+<v Wei Bin Loo>And then we have transcript from all the
+discovery workshops.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/24-0
+00:01:28.223 --> 00:01:32.858
+<v Wei Bin Loo>that is on OneDrive, I guess.
+It's not on Notion. Yeah,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/20-0
+00:01:32.063 --> 00:01:32.783
+<v Fortune Mogoeng>Delineation.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/24-1
+00:01:32.858 --> 00:01:38.818
+<v Wei Bin Loo>so they are all kind of in separate place
+and also they are not kind of</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/21-0
+00:01:34.383 --> 00:01:34.943
+<v Fortune Mogoeng>Actually.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/24-2
+00:01:38.818 --> 00:01:42.708
+<v Wei Bin Loo>automatically being pulled together and
+stuff.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/22-0
+00:01:39.823 --> 00:01:41.503
+<v Fortune Mogoeng>Right, thank you very much for.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/24-3
+00:01:42.708 --> 00:01:47.343
+<v Wei Bin Loo>So I was wondering if you can work on the
+piece that...</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/23-0
+00:01:42.863 --> 00:01:43.423
+<v Fortune Mogoeng>Yes?</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/26-0
+00:01:48.623 --> 00:01:54.767
+<v Wei Bin Loo>figure out a solution that, I mean,
+it can be put everything on the notion,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/26-1
+00:01:54.767 --> 00:02:00.749
+<v Wei Bin Loo>it can be putting everything onto a
+folder on or even GitHub or whatever.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/26-2
+00:02:00.749 --> 00:02:03.983
+<v Wei Bin Loo>But essentially, is it possible to have?</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/25-0
+00:02:02.063 --> 00:02:03.183
+<v Fortune Mogoeng>Yeah, no, definitely.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/27-0
+00:02:05.863 --> 00:02:06.463
+<v Fortune Mogoeng>Thanks so much.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/31-0
+00:02:05.903 --> 00:02:10.408
+<v Wei Bin Loo>automation process where let's say we
+have a meeting of a discovery in Teams</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/28-0
+00:02:09.263 --> 00:02:09.823
+<v Fortune Mogoeng>Yes.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/31-1
+00:02:10.408 --> 00:02:14.503
+<v Wei Bin Loo>and then you get a transcript.
+Is there a way to put an agent to push</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/31-2
+00:02:14.503 --> 00:02:19.358
+<v Wei Bin Loo>that to a place that you want it to be?
+For example, it can be pushed onto Notion,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/31-3
+00:02:19.358 --> 00:02:22.634
+<v Wei Bin Loo>that's also fine,
+or it can be pushed onto a folder and</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/29-0
+00:02:20.823 --> 00:02:21.103
+<v Fortune Mogoeng>Okay.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/31-4
+00:02:22.634 --> 00:02:24.623
+<v Wei Bin Loo>then whatever notes that we write.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/32-0
+00:02:24.703 --> 00:02:28.996
+<v Wei Bin Loo>on Notion can also be,
+if it's on a separate folder, let's say,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/30-0
+00:02:25.903 --> 00:02:26.383
+<v Fortune Mogoeng>Mhm.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/32-1
+00:02:28.996 --> 00:02:34.229
+<v Wei Bin Loo>then whatever knows everyone on Notion
+can also be pulled on to the folder or</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/32-2
+00:02:34.229 --> 00:02:39.596
+<v Wei Bin Loo>you can also push everything on Notion
+and then just make Notion as the kind of</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/32-3
+00:02:39.596 --> 00:02:43.889
+<v Wei Bin Loo>like the main contacts,
+main contacts database that we're going</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/32-4
+00:02:43.889 --> 00:02:46.103
+<v Wei Bin Loo>to use for this AI control tower.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/33-0
+00:02:46.543 --> 00:02:52.565
+<v Wei Bin Loo>So yeah, I think that's the kind of piece.
+That piece is kind of decoupled from the</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/33-1
+00:02:52.565 --> 00:02:56.867
+<v Wei Bin Loo>rest of the piece.
+So I can work on those because I iterate</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/33-2
+00:02:56.867 --> 00:03:01.527
+<v Wei Bin Loo>with Richard and potentially we want to
+use it for enough field,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/33-3
+00:03:01.527 --> 00:03:05.183
+<v Wei Bin Loo>which is going to start in probably a
+week or two.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/34-0
+00:03:05.583 --> 00:03:07.023
+<v Wei Bin Loo>So I think I can iterate.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/37-0
+00:03:08.303 --> 00:03:11.005
+<v Wei Bin Loo>I want to get like a first version quite
+quickly,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/37-1
+00:03:11.005 --> 00:03:15.274
+<v Wei Bin Loo>so I'm happy to like work on this so I
+can iterate quicker to get to the first</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/35-0
+00:03:11.303 --> 00:03:11.783
+<v Fortune Mogoeng>Mhm.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/37-2
+00:03:15.274 --> 00:03:17.652
+<v Wei Bin Loo>version,
+and then after we get to the first</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/36-0
+00:03:15.823 --> 00:03:16.303
+<v Fortune Mogoeng>Okay.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/37-3
+00:03:17.652 --> 00:03:20.354
+<v Wei Bin Loo>version,
+obviously on refining to make it like to</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/37-4
+00:03:20.354 --> 00:03:23.758
+<v Wei Bin Loo>make it like even better to make it to
+the best version of it,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/37-5
+00:03:23.758 --> 00:03:27.703
+<v Wei Bin Loo>then we can obviously like work on this
+together. I think at that point.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/40-0
+00:03:27.943 --> 00:03:32.965
+<v Wei Bin Loo>In time, after we get the first version,
+we will have the luxury of like more time</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/40-1
+00:03:32.965 --> 00:03:36.656
+<v Wei Bin Loo>to slowly improve it,
+but now I think what I want to get for</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/40-2
+00:03:36.656 --> 00:03:41.133
+<v Wei Bin Loo>Nuffield Health and Richard is to
+basically get the first version so it's</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/40-3
+00:03:41.133 --> 00:03:45.368
+<v Wei Bin Loo>usable for Nuffield Health,
+so I'm happy to kind of like work on this</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/38-0
+00:03:42.863 --> 00:03:43.343
+<v Fortune Mogoeng>Mhm.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/40-4
+00:03:45.368 --> 00:03:47.183
+<v Wei Bin Loo>up until we get to that stage.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/41-0
+00:03:47.663 --> 00:03:50.361
+<v Wei Bin Loo>So yeah,
+and then only kind of the decouple part</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/39-0
+00:03:48.143 --> 00:03:48.583
+<v Fortune Mogoeng>OK.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/41-1
+00:03:50.361 --> 00:03:53.884
+<v Wei Bin Loo>will be on the ingestion.
+So it's not like urgent by any means,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/41-2
+00:03:53.884 --> 00:03:57.848
+<v Wei Bin Loo>but just want to let you know,
+and maybe there's something that you can</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/41-3
+00:03:57.848 --> 00:04:01.042
+<v Wei Bin Loo>kind of think,
+have a figure out a solution and say like,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/41-4
+00:04:01.042 --> 00:04:03.574
+<v Wei Bin Loo>what do you think is the best way to do
+this?</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/41-5
+00:04:03.574 --> 00:04:07.263
+<v Wei Bin Loo>I haven't like thought about it very
+deeply, so I don't have like.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/43-0
+00:04:07.343 --> 00:04:11.118
+<v Wei Bin Loo>I don't have a fix,
+so it's not about like guessing kind of</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/42-0
+00:04:10.543 --> 00:04:10.623
+<v Fortune Mogoeng>The.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/43-1
+00:04:11.118 --> 00:04:15.962
+<v Wei Bin Loo>like what solution that I kind of want.
+I don't have a solution that I want.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/43-2
+00:04:15.962 --> 00:04:20.492
+<v Wei Bin Loo>So it's kind of like a free drawing broad
+for you to think which, yeah,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/43-3
+00:04:20.492 --> 00:04:24.959
+<v Wei Bin Loo>what's the best way to do it.
+And if everything can be as automated as</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/43-4
+00:04:24.959 --> 00:04:26.783
+<v Wei Bin Loo>possible, there will be like.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/44-0
+00:04:27.423 --> 00:04:29.817
+<v Wei Bin Loo>Perfect.
+So every time a meeting is finished,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/44-1
+00:04:29.817 --> 00:04:31.743
+<v Wei Bin Loo>everything automatically go to the...</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/45-0
+00:04:32.663 --> 00:04:37.071
+<v Wei Bin Loo>Place where this aircraft tower will
+ingest, they'll be like, yeah,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/45-1
+00:04:37.071 --> 00:04:38.303
+<v Wei Bin Loo>they'll be amazing.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/50-0
+00:04:38.783 --> 00:04:42.765
+<v Fortune Mogoeng>Okay,
+I just want to understand with regards to</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/50-1
+00:04:42.765 --> 00:04:49.732
+<v Fortune Mogoeng>the initial status that we are at, right?
+Because initially we're saving everything</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/50-2
+00:04:49.732 --> 00:04:56.285
+<v Fortune Mogoeng>into Notion and then from Notion we're
+using MCP to connect directly to the AI</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/46-0
+00:04:51.663 --> 00:04:52.223
+<v Wei Bin Loo>Bin.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/47-0
+00:04:54.543 --> 00:04:54.943
+<v Wei Bin Loo>Yeah.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/48-0
+00:04:55.983 --> 00:04:56.303
+<v Wei Bin Loo>Bye.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/50-3
+00:04:56.285 --> 00:04:56.783
+<v Fortune Mogoeng>tower.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/53-0
+00:04:57.103 --> 00:05:01.536
+<v Fortune Mogoeng>And then initially when you,
+when you basically as part of the</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/49-0
+00:04:57.583 --> 00:04:57.903
+<v Wei Bin Loo>Yeah.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/53-1
+00:05:01.536 --> 00:05:07.165
+<v Fortune Mogoeng>ingestion, when you call on that MCP,
+that MCP will go and then look at Notion.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/51-0
+00:05:02.703 --> 00:05:02.863
+<v Wei Bin Loo>Lu.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/53-2
+00:05:07.165 --> 00:05:10.824
+<v Fortune Mogoeng>And then there was a space that we
+basically saved,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/52-0
+00:05:10.303 --> 00:05:10.703
+<v Wei Bin Loo>All right.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/53-3
+00:05:10.824 --> 00:05:15.609
+<v Fortune Mogoeng>we saved the transcript at,
+and then it will be all of the existing</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/53-4
+00:05:15.609 --> 00:05:16.383
+<v Fortune Mogoeng>transcript.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/55-0
+00:05:16.623 --> 00:05:20.771
+<v Fortune Mogoeng>transcript.
+So I just want to understand with that</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/55-1
+00:05:20.771 --> 00:05:25.406
+<v Fortune Mogoeng>current state or the last time that I was
+working on it,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/54-0
+00:05:25.103 --> 00:05:25.263
+<v Wei Bin Loo>Mm.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/55-2
+00:05:25.406 --> 00:05:31.425
+<v Fortune Mogoeng>that was the last state that we are,
+what exactly do you want to improve?</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/55-3
+00:05:31.425 --> 00:05:36.223
+<v Fortune Mogoeng>Do you want us to basically have a
+separate notion, Canva?</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/56-0
+00:05:36.623 --> 00:05:42.066
+<v Fortune Mogoeng>that we'll be using,
+like in a sense that now every time</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/56-1
+00:05:42.066 --> 00:05:45.503
+<v Fortune Mogoeng>there's a meeting, you just trigger.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/58-0
+00:05:47.343 --> 00:05:52.934
+<v Fortune Mogoeng>trigger that and then it goes into that
+into that specific folder.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/58-1
+00:05:52.934 --> 00:05:58.943
+<v Fortune Mogoeng>I'm just trying to understand with the
+new way how is it going to work.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/57-0
+00:05:56.863 --> 00:05:57.023
+<v Wei Bin Loo>Bin.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/60-0
+00:06:00.343 --> 00:06:04.550
+<v Wei Bin Loo>Of course, so currently,
+so currently these are all the notes on</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/60-1
+00:06:04.550 --> 00:06:07.787
+<v Wei Bin Loo>downing.
+So the opportunity we can disregard that</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/59-0
+00:06:06.623 --> 00:06:06.823
+<v Fortune Mogoeng>Mm.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/60-2
+00:06:07.787 --> 00:06:11.541
+<v Wei Bin Loo>because those are part of,
+those are the results kind of.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/60-3
+00:06:11.541 --> 00:06:15.036
+<v Wei Bin Loo>So let's say we have a meeting notes for
+this, right?</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/60-4
+00:06:15.036 --> 00:06:18.143
+<v Wei Bin Loo>And then these are the notes that's
+written by.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/63-0
+00:06:20.063 --> 00:06:25.404
+<v Wei Bin Loo>Richard, Karin, and then somewhere down,
+yeah, for example, for this one,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/61-0
+00:06:21.903 --> 00:06:22.463
+<v Fortune Mogoeng>Mmh.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/63-1
+00:06:25.404 --> 00:06:30.673
+<v Wei Bin Loo>there's no transcript because the
+transcript is probably on OneDrive and</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/63-2
+00:06:30.673 --> 00:06:34.426
+<v Wei Bin Loo>not here.
+Some of them have transcript that Richard</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/62-0
+00:06:32.623 --> 00:06:32.943
+<v Fortune Mogoeng>Yeah.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/63-3
+00:06:34.426 --> 00:06:39.983
+<v Wei Bin Loo>copy and paste over, I believe. Yeah,
+like this one, like transcript source.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/64-0
+00:06:40.983 --> 00:06:44.751
+<v Wei Bin Loo>transcript summary,
+I think this is like copy and pasted</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/64-1
+00:06:44.751 --> 00:06:49.842
+<v Wei Bin Loo>somewhere else. This is the source. Yeah,
+so it's in Jessica document in the</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/64-2
+00:06:49.842 --> 00:06:53.610
+<v Wei Bin Loo>download meeting transcript,
+something like that, right?</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/64-3
+00:06:53.610 --> 00:06:57.775
+<v Wei Bin Loo>So the process currently is quite
+fragmented. So like firstly,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/64-4
+00:06:57.775 --> 00:07:01.543
+<v Wei Bin Loo>it's not automated,
+so the transcript is somewhere else.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/67-0
+00:07:01.823 --> 00:07:07.314
+<v Wei Bin Loo>And then the notes that we write is here.
+So they are kind of disconnected.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/65-0
+00:07:05.583 --> 00:07:06.103
+<v Fortune Mogoeng>Mhm.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/67-1
+00:07:07.314 --> 00:07:11.143
+<v Wei Bin Loo>And for now,
+if the transcript is not in the notion,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/67-2
+00:07:11.143 --> 00:07:15.550
+<v Wei Bin Loo>then we probably do not use it.
+So we might miss some of the</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/66-0
+00:07:12.783 --> 00:07:12.943
+<v Fortune Mogoeng>Okay.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/67-3
+00:07:15.550 --> 00:07:18.223
+<v Wei Bin Loo>opportunities there. So it can be so.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/69-0
+00:07:19.743 --> 00:07:24.226
+<v Wei Bin Loo>It can be everything fit into here,
+so you can definitely do a like</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/69-1
+00:07:24.226 --> 00:07:29.039
+<v Wei Bin Loo>automation that automatically trigger the
+transcript, trigger the agent,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/69-2
+00:07:29.039 --> 00:07:33.983
+<v Wei Bin Loo>and push all the transcript stuff onto
+Notion, or it can be in this table,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/68-0
+00:07:32.143 --> 00:07:32.623
+<v Fortune Mogoeng>Mhm.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/69-3
+00:07:33.983 --> 00:07:39.191
+<v Wei Bin Loo>it can be a separate table that you like
+a separate database, Notion database,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/69-4
+00:07:39.191 --> 00:07:41.103
+<v Wei Bin Loo>they've created specifically.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/71-0
+00:07:41.663 --> 00:07:47.903
+<v Wei Bin Loo>used for AI control tower consumption,
+that's also fine. Yeah, so...</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/70-0
+00:07:45.823 --> 00:07:46.223
+<v Fortune Mogoeng>Okay.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/73-0
+00:07:47.983 --> 00:07:51.492
+<v Fortune Mogoeng>Yeah,
+I think that will be the better option,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/72-0
+00:07:50.903 --> 00:07:51.423
+<v Wei Bin Loo>Okay.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/73-1
+00:07:51.492 --> 00:07:56.298
+<v Fortune Mogoeng>right? Just to have a,
+just have basically like a new database</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/73-2
+00:07:56.298 --> 00:08:00.876
+<v Fortune Mogoeng>that we'll be using.
+It could be like within Notion itself,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/73-3
+00:08:00.876 --> 00:08:04.461
+<v Fortune Mogoeng>right?
+So initially if you're going to trigger</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/73-4
+00:08:04.461 --> 00:08:06.063
+<v Fortune Mogoeng>the workflow, you can</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/74-0
+00:08:06.943 --> 00:08:12.102
+<v Fortune Mogoeng>generally take the link of that Notion
+transcript that you're working on and</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/74-1
+00:08:12.102 --> 00:08:17.193
+<v Fortune Mogoeng>then basically just share it to the agent
+and then the agent could find it.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/74-2
+00:08:17.193 --> 00:08:21.615
+<v Fortune Mogoeng>And then once it find it,
+move it to a central place with folders</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/74-3
+00:08:21.615 --> 00:08:25.768
+<v Fortune Mogoeng>and basically the name of the project
+that you're working on.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/74-4
+00:08:25.768 --> 00:08:28.783
+<v Fortune Mogoeng>That could be a more defined way of
+working.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/76-0
+00:08:29.103 --> 00:08:33.178
+<v Fortune Mogoeng>So I can just sit down.
+It will probably be tomorrow because</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/76-1
+00:08:33.178 --> 00:08:37.854
+<v Fortune Mogoeng>today I just want to finish up on
+debugging the debugging some of the</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/75-0
+00:08:34.783 --> 00:08:35.263
+<v Wei Bin Loo>No.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/76-2
+00:08:37.854 --> 00:08:41.462
+<v Fortune Mogoeng>transcripts,
+some of the scripts that I'm working on.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/76-3
+00:08:41.462 --> 00:08:45.270
+<v Fortune Mogoeng>So I can start on it tomorrow morning
+just to basically,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/76-4
+00:08:45.270 --> 00:08:48.543
+<v Fortune Mogoeng>I also need to just have a view of where
+we are.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/77-0
+00:08:48.903 --> 00:08:52.623
+<v Fortune Mogoeng>in terms of everything that's available
+on.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/80-0
+00:08:53.903 --> 00:08:58.288
+<v Fortune Mogoeng>on GitHub, on the repo,
+because I remember that the last time</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/80-1
+00:08:58.288 --> 00:09:03.874
+<v Fortune Mogoeng>Jess also created basically a skill that
+also sort of removes buffer words and</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/80-2
+00:09:03.874 --> 00:09:07.269
+<v Fortune Mogoeng>removes small talks,
+intro and stuff like that.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/80-3
+00:09:07.269 --> 00:09:11.299
+<v Fortune Mogoeng>Just to basically,
+if a meeting is 45 minutes, you know,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/78-0
+00:09:08.943 --> 00:09:09.103
+<v Wei Bin Loo>Bin.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/80-4
+00:09:11.299 --> 00:09:14.623
+<v Fortune Mogoeng>that maybe like 5 minutes of those 45
+minutes.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/79-0
+00:09:14.663 --> 00:09:14.943
+<v Wei Bin Loo>Loo.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/81-0
+00:09:14.943 --> 00:09:18.338
+<v Fortune Mogoeng>It's just like small talks and stuff like
+that.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/81-1
+00:09:18.338 --> 00:09:21.663
+<v Fortune Mogoeng>So that initially was what that skill was
+for.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/82-0
+00:09:22.943 --> 00:09:25.343
+<v Wei Bin Loo>Yep, if we can do that,
+that would be great as well.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/83-0
+00:09:23.583 --> 00:09:29.423
+<v Fortune Mogoeng>So yeah, I can definitely do that.
+And then what else do you need me to do?</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/87-0
+00:09:30.383 --> 00:09:34.691
+<v Wei Bin Loo>I think it's mainly this for now.
+You can let me know if this is like</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/87-1
+00:09:34.691 --> 00:09:39.061
+<v Wei Bin Loo>enough or you, you, if yeah,
+because I'm not sure kind of like for now</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/87-2
+00:09:39.061 --> 00:09:43.985
+<v Wei Bin Loo>you have rebranding and the downing thing
+which is taking two days if you wait.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/84-0
+00:09:42.783 --> 00:09:43.103
+<v Fortune Mogoeng>Yeah.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/87-3
+00:09:43.985 --> 00:09:48.971
+<v Wei Bin Loo>So let's start with this and let me know
+kind of how you're getting on. So yeah,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/85-0
+00:09:44.383 --> 00:09:44.703
+<v Fortune Mogoeng>Yeah.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/86-0
+00:09:48.703 --> 00:09:49.023
+<v Fortune Mogoeng>Okay.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/87-4
+00:09:48.971 --> 00:09:50.263
+<v Wei Bin Loo>I think for this one.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/88-0
+00:09:50.463 --> 00:09:56.058
+<v Wei Bin Loo>Yeah, I think for me,
+the aim is just if we can get everything</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/88-1
+00:09:56.058 --> 00:10:02.630
+<v Wei Bin Loo>at one place that the AI control tower
+can point to, that would be great.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/88-2
+00:10:02.630 --> 00:10:06.627
+<v Wei Bin Loo>And secondly,
+if everything flows into there</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/88-3
+00:10:06.627 --> 00:10:10.623
+<v Wei Bin Loo>automatically without as less kind of
+manual</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/90-0
+00:10:11.983 --> 00:10:15.555
+<v Wei Bin Loo>interception as possible. That will be,
+yeah, better.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/90-1
+00:10:15.555 --> 00:10:20.383
+<v Wei Bin Loo>And then the third one would be having
+the information stored in a quite</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/90-2
+00:10:20.383 --> 00:10:25.541
+<v Wei Bin Loo>structured way. I mean, like for the most,
+like, like the most basic is like,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/89-0
+00:10:22.943 --> 00:10:23.343
+<v Fortune Mogoeng>Yeah.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/90-3
+00:10:25.541 --> 00:10:29.113
+<v Wei Bin Loo>let's say I have an,
+I write the notes for meeting A,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/90-4
+00:10:29.113 --> 00:10:32.023
+<v Wei Bin Loo>and then we have transcript from meeting
+A.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/93-0
+00:10:32.143 --> 00:10:35.609
+<v Wei Bin Loo>So, ideally,
+they can either be put in the same</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/93-1
+00:10:35.609 --> 00:10:40.086
+<v Wei Bin Loo>document by the agent,
+or kind of like somehow use a field to</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/91-0
+00:10:37.343 --> 00:10:37.543
+<v Fortune Mogoeng>Uh-huh.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/93-2
+00:10:40.086 --> 00:10:44.275
+<v Wei Bin Loo>link them together,
+so that the algorithm tower will know</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/93-3
+00:10:44.275 --> 00:10:48.463
+<v Wei Bin Loo>that these two are from the same source,
+basically, yeah.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/94-0
+00:10:47.183 --> 00:10:52.208
+<v Fortune Mogoeng>Okay, no, definitely get that. Yeah,
+we'll get started on that tomorrow,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/94-1
+00:10:52.208 --> 00:10:57.163
+<v Fortune Mogoeng>but I'll just need to read your
+documentation and then also check up on</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/94-2
+00:10:57.163 --> 00:11:02.739
+<v Fortune Mogoeng>the get repo with the changes that Jazz
+pushed because I haven't really had time</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/94-3
+00:11:02.739 --> 00:11:05.423
+<v Fortune Mogoeng>to go into detail with the changes that</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/97-0
+00:11:05.583 --> 00:11:08.642
+<v Fortune Mogoeng>just pushed,
+but then I can start looking at that</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/97-1
+00:11:08.642 --> 00:11:12.863
+<v Fortune Mogoeng>tomorrow because I think tomorrow is
+where I'll be doing most of the</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/97-2
+00:11:12.863 --> 00:11:16.105
+<v Fortune Mogoeng>rebranding.
+So there will be like the first thing in</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/96-0
+00:11:15.063 --> 00:11:15.583
+<v Wei Bin Loo>Mhm.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/97-3
+00:11:16.105 --> 00:11:20.265
+<v Fortune Mogoeng>the morning type of thing.
+And then I'll just update you as the day</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/97-4
+00:11:20.265 --> 00:11:24.303
+<v Fortune Mogoeng>goes or how far I've gotten before I move
+over to the rebranding.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/98-0
+00:11:25.743 --> 00:11:25.943
+<v Fortune Mogoeng>Yeah.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/100-0
+00:11:25.743 --> 00:11:28.246
+<v Wei Bin Loo>No worries, it's not super super urgent.
+You can,</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/100-1
+00:11:28.246 --> 00:11:32.200
+<v Wei Bin Loo>once you have the chance to think of it,
+you can let me know kind of like your</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/100-2
+00:11:32.200 --> 00:11:35.503
+<v Wei Bin Loo>plan, how long do you think it would take,
+stuff like that, yeah.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/99-0
+00:11:33.103 --> 00:11:33.503
+<v Fortune Mogoeng>Yeah.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/102-0
+00:11:35.903 --> 00:11:40.568
+<v Fortune Mogoeng>Okay, no problem. I'll definitely do that.
+Is there anything else that we need to</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/101-0
+00:11:36.503 --> 00:11:37.103
+<v Wei Bin Loo>No problem.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/102-1
+00:11:40.568 --> 00:11:41.023
+<v Fortune Mogoeng>discuss?</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/103-0
+00:11:42.103 --> 00:11:45.343
+<v Wei Bin Loo>No, I will say mainly just this for now.
+Thanks A lot.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/104-0
+00:11:44.583 --> 00:11:47.663
+<v Fortune Mogoeng>All right, no problem. Thank you.
+Enjoy your day.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/106-0
+00:11:48.223 --> 00:11:49.423
+<v Wei Bin Loo>YouTube just by.</v>
+
+33b1b4af-2b1a-47f3-8aaf-5af77dae390c/107-0
+00:11:49.343 --> 00:11:49.903
+<v Fortune Mogoeng>I believe.</v>

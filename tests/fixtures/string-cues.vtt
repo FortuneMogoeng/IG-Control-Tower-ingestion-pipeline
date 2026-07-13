@@ -1,0 +1,9 @@
+WEBVTT
+
+intro
+00:00:01.000 --> 00:00:04.000
+<v Alice>This is the opening statement of the meeting and is long enough to matter.</v>
+
+cue-001
+00:00:05.000 --> 00:00:09.000
+<v Bob>Here is a substantial response to the opening statement made above.</v>

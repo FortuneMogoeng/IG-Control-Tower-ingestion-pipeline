@@ -1,0 +1,40 @@
+# Ignore everything by default
+*
+
+# --- Whitelist: only the ingestion pipeline files are tracked ---
+
+# Root docs
+!README.md
+!MERGE_GUIDE.md
+!WORK_PLAN.md
+!PATCHES.md
+!.gitignore
+
+# Ingestion scripts (the new files)
+!scripts/
+!scripts/**
+scripts/**/__pycache__/
+scripts/**/*.pyc
+
+# Test fixtures and results
+!tests/
+!tests/**
+
+# Architecture docs
+!docs/
+!docs/**
+
+# Exclude secrets and large binaries everywhere
+**/*.env
+**/*.env.local
+**/.env
+**/notion_toke*
+**/*.pdf
+**/*.pptx
+**/*.docx
+**/*.xlsx
+**/*.xls
+**/*.pyc
+**/__pycache__/
+**/*.db
+**/*.sqlite

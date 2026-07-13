@@ -1,0 +1,17 @@
+WEBVTT
+
+1
+00:01.000 --> 00:04.000
+<v Alice Chen>We should focus on the pipeline efficiency gains first.
+
+2
+01:35.000 --> 01:39.000
+<v Bob Harris>Agreed. The data ingestion layer is the main bottleneck right now.
+
+3
+02:45.000 --> 02:49.000
+<v Alice Chen>Can we get a cost estimate on the Azure migration by end of week?
+
+4
+04:10.000 --> 04:15.000
+<v Bob Harris>Yes, I will pull the numbers from the infrastructure team today.
