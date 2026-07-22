@@ -10,6 +10,7 @@
 !PATCHES.md
 !CLAUDE_HANDOVER.md
 !.gitignore
+!requirements-dev.txt
 
 # Handover and email drafts
 !JULY/

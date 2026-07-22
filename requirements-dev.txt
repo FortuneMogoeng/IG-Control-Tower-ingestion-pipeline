@@ -1,0 +1,9 @@
+# Dev / test dependencies for the ingestion pipeline.
+# Run the offline smoke suite:      python -m pytest tests/smoke/ -v
+# Run including Azure integration:  python -m pytest tests/smoke/ -v --run-integration
+#   (requires AZURE_STORAGE_CONNECTION_STRING and azure-storage-blob installed)
+
+pytest>=8
+
+# Needed only for the Group 6 integration tests
+azure-storage-blob>=12.19
