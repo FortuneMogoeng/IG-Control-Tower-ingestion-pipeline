@@ -87,14 +87,18 @@ Control Tower\  (= this repo, canonical)
 ├── PATCHES.md                      ← SUPERSEDED (history only)
 ├── scripts\
 │   ├── _auto_ingest.py             ← Stage 0 wrapper + Path B client downloader
-│   └── parsers\
-│       ├── parse_any.py            ← dispatcher (PARSERS dict)
-│       ├── parse_vtt.py            ← v1.2, sha256 ids
-│       ├── parse_pdf.py  parse_word.py  parse_excel.py  parse_pptx.py
+│   ├── parsers\
+│   │   ├── parse_any.py            ← dispatcher (PARSERS dict)
+│   │   ├── parse_vtt.py            ← v1.2, sha256 ids
+│   │   ├── parse_pdf.py  parse_word.py  parse_excel.py  parse_pptx.py
+│   └── db\                         ← DB scripts (consolidated 22 July)
+│       ├── init_db.py  import_db.py  export_db.py  db_sync.py  _envload.py
+│       └── README.md
 ├── azure\document-parser-fn\       ← Path B Function (scaffolded 22 July)
-│   ├── function_app.py  requirements.txt  host.json  README.md
+│   ├── function_app.py  core.py  requirements.txt  host.json  README.md
 ├── tests\
 │   ├── fixtures\                   ← real-teams.vtt, zoom-format.vtt, etc.
+│   ├── conftest.py  smoke\         ← pytest suite (18 offline + 3 Azure integration)
 │   └── TEST_RESULTS.md
 └── docs\ingestion-architecture.md
 ```

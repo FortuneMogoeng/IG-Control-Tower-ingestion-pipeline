@@ -97,8 +97,8 @@ Locked. Do not revisit without a team discussion and an ADR.
 |------|-------|--------|
 | Azure subscription access for Path B | Wei / infra owner | Needed — the one blocker |
 | Confirm VMO2 first pipeline run | Wei / other consultant | Parked (no local evidence) |
-| Smoke tests Groups 6-7 | Engineering | Ready to write now |
-| Consolidate db_sync/import_db/export_db into this repo | Backlog | Optional (repo standalone-completeness) |
+| Smoke tests Groups 6-7 | Engineering | Written (offline green; Azure tests run with --run-integration) |
+| Consolidate db_sync/import_db/export_db into this repo | Fortune | Done 22 July — in scripts/db/, round-trip verified |
 | Power BI dashboard over GenericOpportunities | Backlog | Unassigned, no Azure blocker |
 | Path C trigger: 5th client | Fortune / leadership | Unscheduled |
 
