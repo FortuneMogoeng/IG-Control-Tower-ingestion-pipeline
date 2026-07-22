@@ -1,0 +1,10 @@
+# Azure Functions runtime
+azure-functions
+azure-storage-blob>=12.19
+
+# Parser dependencies (must match ../../scripts/parsers)
+pdfplumber      # parse_pdf
+python-docx     # parse_word
+openpyxl        # parse_excel
+python-pptx     # parse_pptx
+# parse_vtt uses the standard library only

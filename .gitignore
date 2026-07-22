@@ -30,6 +30,17 @@ scripts/**/*.pyc
 !docs/
 !docs/**
 
+# Path B — Azure Function (server side). Source only.
+!azure/
+!azure/**
+# Vendored parsers are a build artefact (copied from scripts/parsers at deploy)
+azure/**/parsers/
+# Azure Functions local secrets / build output
+azure/**/local.settings.json
+azure/**/.python_packages/
+azure/**/bin/
+azure/**/obj/
+
 # Exclude secrets and large binaries everywhere
 **/*.env
 **/*.env.local
