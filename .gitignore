@@ -11,6 +11,7 @@
 !CLAUDE_HANDOVER.md
 !.gitignore
 !requirements-dev.txt
+!.env.example
 
 # Handover and email drafts
 !JULY/
